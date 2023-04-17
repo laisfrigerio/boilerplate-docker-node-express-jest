@@ -38,7 +38,7 @@ We develop this boilerplate with the following docker version: `20.10.22`
 
 ## :woman: Author
 
-[@laisfrigerio](https://github.com/laisfrigerio/)
+[@laisfrigerio](https://instagram.com/laisfrigerio/)
 
 ## 📄 License
 
