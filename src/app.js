@@ -1,11 +1,11 @@
-const express = require('express')
+const express = require('express');
 
-const app = express()
+const app = express();
 
-app.use(express.json())
+app.use(express.json());
 
 app.get('/', (request, response) => {
-    return response.json({ message: 'Hello World' })
-})
+  return response.json({ message: 'Hello World' });
+});
 
-module.exports = app
+module.exports = app;

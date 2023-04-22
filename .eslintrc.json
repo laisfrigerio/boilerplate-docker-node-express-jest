@@ -1,0 +1,76 @@
+{
+    "env": {
+        "browser": true,
+        "commonjs": true,
+        "es2021": true,
+        "jest": true
+    },
+    "extends": "eslint:recommended",
+    "overrides": [
+    ],
+    "parserOptions": {
+        "ecmaVersion": "latest"
+    },
+    "rules": {
+        "indent": [
+            "error",
+            2
+        ],
+        "no-mixed-spaces-and-tabs": "warn",
+        "linebreak-style": [
+            "error",
+            "unix"
+        ],
+        "quotes": [
+            "error",
+            "single"
+        ],
+        "semi": [
+            "error",
+            "always"
+        ],
+        "no-unused-expressions": [
+            "error",
+            {
+                "allowTernary": true
+            }
+        ],
+        "no-unused-vars": [
+            "error",
+            { 
+                "argsIgnorePattern": "request|response|next|__"
+            }
+        ],
+        "space-infix-ops": "error",
+        "space-unary-ops": "error",
+        "no-multiple-empty-lines": [
+            "error", 
+            {
+                "max": 2, 
+                "maxEOF": 1
+            }
+        ],
+        "no-whitespace-before-property": "error",
+        "object-property-newline": [
+            "error",
+            { 
+                "allowAllPropertiesOnSameLine": true
+            }
+        ],
+        "space-before-function-paren": [
+            "error", 
+            "always"
+        ],
+        "arrow-spacing": [
+            "error", 
+            { 
+                "before": true, 
+                "after": true
+            }
+        ],
+        "space-before-blocks": [
+            "error", 
+            "always"
+        ]
+    }
+}
